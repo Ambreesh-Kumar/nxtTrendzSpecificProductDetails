@@ -1,0 +1,112 @@
+/* Write your CSS here */
+.item-detail-main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.item-description-container {
+  padding-right: 20px;
+}
+.itemImage {
+  height: 60vh;
+  margin-right: 22px;
+  border-radius: 10px;
+}
+.title {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 38px;
+  color: #616e7c;
+}
+.price {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 28px;
+  color: black;
+}
+.review-rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 8px;
+}
+.item-rating-container {
+  display: flex;
+  align-items: center;
+  background-color: #3b82f6;
+  border-radius: 6px;
+  padding: 6px 16px;
+}
+.rating {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffff;
+}
+.star-image {
+  height: 20px;
+  margin-left: 4px;
+}
+.reviews {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  color: #475569;
+  margin-left: 8px;
+}
+.description {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  color: #607188;
+}
+.availability {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+}
+.plus-minus-button {
+  border-width: 0px;
+  background-color: transparent;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.count {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 25px;
+  color: #616e7c;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.add-cart-button {
+  padding: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  border-width: 0px;
+  background-color: #3b82f6;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffff;
+}
+.horizontal-line {
+  align-self: center;
+}
+.similar-product-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  color: #607188;
+}
